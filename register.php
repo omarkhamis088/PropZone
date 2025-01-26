@@ -8,7 +8,7 @@ if(isset($_REQUEST['reg']))
 	$email=$_REQUEST['email'];
 	$phone=$_REQUEST['phone'];
 	$pass=$_REQUEST['pass'];
-	// $utype=$_REQUEST['utype'];
+	$utype=$_REQUEST['utype'];
 	$utype='user';
 	
 	$uimage=$_FILES['uimage']['name'];
@@ -151,7 +151,7 @@ if(isset($_REQUEST['reg']))
 										<input type="password" name="pass"  class="form-control" placeholder="Your Password*">
 									</div>
 
-									 <!-- <div class="form-check-inline">
+									 <div class="form-check-inline">
 									  <label class="form-check-label">
 										<input type="radio" class="form-check-input" name="utype" value="user" checked>User
 									  </label>
@@ -159,10 +159,10 @@ if(isset($_REQUEST['reg']))
 									 
 									<div class="form-check-inline">
 									  <label class="form-check-label">
-										<input type="radio" class="form-check-input" name="utype" value="agent" disabled>Agent
+										<input type="radio" class="form-check-input" name="utype" value="agent">Agent
 									  </label>
 									</div>
-									<div class="form-check-inline disabled">
+									<!-- <div class="form-check-inline disabled">
 									  <label class="form-check-label">
 										<input type="radio" class="form-check-input" name="utype" value="builder">Builder
 									  </label>
@@ -183,14 +183,14 @@ if(isset($_REQUEST['reg']))
 								</div>
 								
 								<!-- Social Login -->
-								<!-- <div class="social-login">
+								<div class="social-login">
 									<span>Register with</span>
 									<a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
 									<a href="#" class="google"><i class="fab fa-google"></i></a>
 									<a href="#" class="facebook"><i class="fab fa-twitter"></i></a>
 									<a href="#" class="google"><i class="fab fa-instagram"></i></a>
-								</div> -->
-								<!-- /Social Login -->
+								</div>
+								<!-- /Social Login
 								
 								<div class="text-center dont-have">Already have an account? <a href="login.php">Login</a></div>
 								

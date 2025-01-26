@@ -87,37 +87,35 @@ include("config.php");
          <!--	Banner   --->
 
 
-        <div class="full-row">
+         <div class="full-row">
             <div class="container">
-				<div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="text-secondary double-down-line text-center mb-5">مكاتب العقارات</h2>
-                        </div>
+                <div class="text-center mb-4">
+                    <a class="btn btn-success" href="add_agent.php">إضافة عميل أو مكتب عقاري</a>
                 </div>
                 <div class="row">
-                 
+                    <div class="col-lg-12">
+                        <h2 class="text-secondary double-down-line text-center mb-5">مكاتب العقارات</h2>
+                    </div>
+                </div>
+                
+                <div class="row">
                     <?php 
-							$query=mysqli_query($con,"SELECT * FROM user WHERE utype='agent'");
-								while($row=mysqli_fetch_array($query))
-								{
-                            ?>
-                            
+                    $query = mysqli_query($con, "SELECT * FROM user WHERE utype='agent'");
+                    while ($row = mysqli_fetch_array($query)) {
+                    ?>
                     <div class="col-md-6 col-lg-4">
                         <div class="hover-zoomer bg-white shadow-one mb-4">
-                            <div class="overflow-hidden"> <img src="admin/user/<?php echo $row['6'];?>" alt="aimage"> </div>
+                            <div class="overflow-hidden"> <img src="admin/user/<?php echo $row['6']; ?>" alt="aimage"> </div>
                             <div class="py-3 text-center">
-                                <h5 class="text-secondary hover-text-success"><a href="#"><?php echo $row['1'];?></a></h5>
-                                <span>العقارات - وكيل</span> </div>
+                                <h5 class="text-secondary hover-text-success"><a href="#"><?php echo $row['1']; ?></a></h5>
+                                <span>العقارات - وكيل</span> 
+                            </div>
                         </div>
                     </div>
-                   
                     <?php } ?>
-                
-                  
                 </div>
             </div>
         </div>
-
 
         <!--	Footer   start-->
 		<?php include("include/footer.php");?>
