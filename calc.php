@@ -6,16 +6,14 @@ include("config.php");
 
 // codeing
 
-if(isset($_REQUEST['calc']))
-{
-	$amount=$_REQUEST['amount'];
-	$mon=$_REQUEST['month'];
-	$int=$_REQUEST['interest'];
-	
-	$interest = $amount * $int/100;
-	$pay = $amount + $interest;
-	$month = $pay / $mon;
-
+if (isset($_REQUEST['calc'])) {
+    $amount = floatval($_REQUEST['amount']);
+    $mon = intval($_REQUEST['month']);
+    $int = floatval($_REQUEST['interest']);
+    
+    $interest = $amount * $int / 100;
+    $pay = $amount + $interest;
+    $month = $pay / $mon;
 }	
 ?>
 <!DOCTYPE html>
