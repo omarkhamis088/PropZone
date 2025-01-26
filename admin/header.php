@@ -6,6 +6,7 @@ require("config.php");
 if (!isset($_SESSION['auser'])) {
 	header("location:index.php");
 }
+
 ?>
 <div class="header"  dir="rtl">
 	<!-- Logo -->

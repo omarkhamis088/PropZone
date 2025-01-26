@@ -45,6 +45,41 @@ include("config.php");
             align-items: right;
             direction: rtl;
         }
+
+        .footer{
+            width: 100%;
+            text-align: right;
+            direction: ltr;
+            color:red;
+        }
+        .text-capitalize{
+            text-align: center;
+        }
+        .overlay-secondary{
+            text-align: center;
+            align-items: center;
+        }
+        .footer {
+            width: 100%;
+            text-align: right;
+            direction: ltr;
+            color: red;
+        }
+        .text-capitalize {
+            text-align: center;
+        }
+        .overlay-secondary {
+            text-align: center;
+            align-items: center;
+        }
+        .btn {
+            background-color: #007bff; /* لون أزرق */
+            border-color: #007bff; /* تحديد لون الحدود */
+        }
+        .btn:hover {
+            background-color: #0056b3; /* لون أزرق أغمق عند التحويم */
+            border-color: #0056b3; /* لون الحدود عند التحويم */
+        }
     </style>
 <title>Real Estate PHP</title>
 </head>
