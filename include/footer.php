@@ -62,7 +62,7 @@
                                                     class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i> 775144511
                                                 967+ </li>
                                             <li class="hover-text-primary"><i
-                                                    class="fas fa-envelope text-white mr-2 font-13 mt-1"></i>helpline@realestatest.com
+                                                    class="fas fa-envelope text-white mr-2 font-13 mt-1"></i>wealid448@gmail.com
                                             </li>
                                         </ul>
                                     </div>
