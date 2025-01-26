@@ -1,4 +1,15 @@
 <header id="header" class="transparent-header-modern fixed-header-bg-white w-100">
+<style>
+    .btn {
+        background-color: #007bff; /* لون أزرق */
+        border-color: #007bff; /* تحديد لون الحدود */
+    }
+
+    .btn:hover {
+        background-color: #0056b3; /* لون أزرق أغمق عند التحويم */
+        border-color: #0056b3; /* لون الحدود عند التحويم */
+    }
+</style>
             <div class="top-header bg-secondary">
                 <div class="container">
                     <div class="row">
@@ -17,7 +28,7 @@
 								<a href="logout.php">تسجيل الخروج</a>&nbsp;&nbsp;<?php } else { ?>
 								<a href="login.php">تسجيل الدخول</a>&nbsp;&nbsp;
 								
-								| </li>
+								 </li>
 								<li><i class="fas fa-user-plus text-success mr-1"></i><a href="register.php"> تسجيل</li><?php } ?>
 								</ul>
                             </div>
