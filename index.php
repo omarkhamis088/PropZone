@@ -55,6 +55,27 @@ include("config.php");
             text-align: center;
             align-items: center;
         }
+        .footer {
+            width: 100%;
+            text-align: right;
+            direction: ltr;
+            color: red;
+        }
+        .text-capitalize {
+            text-align: center;
+        }
+        .overlay-secondary {
+            text-align: center;
+            align-items: center;
+        }
+        .btn {
+            background-color: #007bff; /* لون أزرق */
+            border-color: #007bff; /* تحديد لون الحدود */
+        }
+        .btn:hover {
+            background-color: #0056b3; /* لون أزرق أغمق عند التحويم */
+            border-color: #0056b3; /* لون الحدود عند التحويم */
+        }
     </style>
 <title>Real Estate PHP</title>
 </head>
@@ -77,7 +98,7 @@ include("config.php");
         <!--	Header end  -->
 		
         <!--	Banner Start   -->
-        <div class="overlay-black w-100 slider-banner1 position-relative" style="background-image: url('images/banner/rshmpg.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+        <div class="overlay-black w-100 slider-banner1 position-relative" style="background-image: url('images/banner/sanaa.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-lg-12">
@@ -239,7 +260,7 @@ include("config.php");
 		<!--	Recent Properties  -->
         
         <!--	Why Choose Us -->
-        <div class="full-row living bg-one overlay-secondary-half" style="background-image: url('images/01.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+        <div class="full-row living bg-one overlay-secondary-half" style="background-image: url('images/it4.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
@@ -316,7 +337,7 @@ include("config.php");
         
         <!--	Achievement
         ============================================================-->
-        <div class="full-row overlay-secondary" style="background-image: url('images/breadcromb.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat; ">
+        <div class="full-row overlay-secondary" style="background-image: url('images/banner/sanaa.jpg.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat; ">
             <div class="container">
                 <div class="fact-counter">
                     <div class="row">
@@ -392,7 +413,7 @@ include("config.php");
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/1.jpg" alt="">
+                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/it4.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
 										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Olisphis'");
@@ -407,7 +428,7 @@ include("config.php");
                             </div>
                         </div> 
                         <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/2.jpg" alt="">
+                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/borj.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
 										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Awrerton'");
@@ -422,7 +443,7 @@ include("config.php");
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3 pb-1"> 
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/3.jpg" alt="">
+                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/banner/sanaa.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
 										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='السبعين'");
@@ -437,7 +458,7 @@ include("config.php");
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/4.jpg" alt="">
+                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/shaby.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
 										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Ulmore'");
