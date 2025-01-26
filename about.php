@@ -92,6 +92,7 @@ include("config.php");
 				?>
 				<div class="row">
                     <div class="col-md-12 col-lg-12">
+                        <!-- معلومات عنا -->
                         <h3 class="double-down-line-right text-secondary position-relative pb-4 mb-4"><?php echo $row['1'];?></h3>
                     </div>
                 </div>
