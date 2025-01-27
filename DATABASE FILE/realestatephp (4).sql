@@ -366,3 +366,42 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+-- --------------------------------------------------------
+
+--
+-- بنية الجدول `client`
+--
+
+CREATE TABLE `client` (
+  `client_id` int(50) NOT NULL,
+  `client_name` varchar(100) NOT NULL,
+  `client_email` varchar(100) NOT NULL,
+  `client_phone` varchar(20) NOT NULL,
+  `client_message` text NOT NULL,
+  `date_added` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- إرجاع أو استيراد بيانات الجدول `client`
+--
+
+INSERT INTO `client` (`client_id`, `client_name`, `client_email`, `client_phone`, `client_message`) VALUES
+(1, 'علي محمد', 'ali@example.com', '1234567890', 'أريد استفسار عن العقارات المتاحة'),
+(2, 'سارة أحمد', 'sara@example.com', '0987654321', 'أحتاج مساعدة في شراء منزل');
+
+-- --------------------------------------------------------
+
+--
+-- Indexes for table `client`
+--
+
+ALTER TABLE `client`
+  ADD PRIMARY KEY (`client_id`);
+
+--
+-- AUTO_INCREMENT for table `client`
+--
+
+ALTER TABLE `client`
+  MODIFY `client_id` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;

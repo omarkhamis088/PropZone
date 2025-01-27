@@ -76,6 +76,9 @@ include("config.php");
             background-color: #0056b3; /* لون أزرق أغمق عند التحويم */
             border-color: #0056b3; /* لون الحدود عند التحويم */
         }
+        .texttt{
+            color:rgb(53, 130, 212);
+        }
     </style>
 <title>Real Estate PHP</title>
 </head>
@@ -103,7 +106,7 @@ include("config.php");
                 <div class="row h-100 align-items-center">
                     <div class="col-lg-12">
                         <div class="text-white">
-                            <h1 class="mb-4" style="text-align:right"><span class="text-success">دعنا</span><br>
+                            <h1 class="mb-4" style="text-align:right;"><span class="texttt">دعنا</span><br>
                             نرشدك الى المنزل</h1> 
                             <form method="post" action="propertygrid.php">
                                 <div class="row">
