@@ -48,10 +48,10 @@ http://localhost/PropZone
 **Password:** 123
 
 ## 📸 Screenshots
-![View properties Screenshot](screenshots/ViewProperties.png)
-![Real estate Page Screenshot](screenshots/RealEstate.png)
-![Add a property Page Screenshot](screenshots/AddProperty.png)
-![About Page Screenshot](screenshots/About.png)
+![View properties Screenshot](screenshot/ViewProperties.png)
+![Real estate Page Screenshot](screenshot/RealEstate.png)
+![Add a property Page Screenshot](screenshot/AddProperty.png)
+![About Page Screenshot](screenshot/About.png)
 
 ## 🧭 Planned Improvements
 - Add search and filter by location/type/price
