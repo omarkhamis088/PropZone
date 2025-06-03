@@ -48,7 +48,8 @@ http://localhost/PropZone
 **Password:** 123
 
 ## 📸 Screenshots
-<!-- Add images like below --> <!-- ![Dashboard Screenshot](screenshots/dashboard.png) --> <!-- ![Public Page Screenshot](screenshots/public.png) -->
+![Dashboard Screenshot](screenshots/dashboard.png)
+![Public Page Screenshot](screenshots/public.png)
 
 ## 🧭 Planned Improvements
 Add search and filter by location/type/price
