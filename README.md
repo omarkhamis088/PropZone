@@ -52,11 +52,11 @@ http://localhost/PropZone
 ![Public Page Screenshot](screenshots/public.png)
 
 ## 🧭 Planned Improvements
-Add search and filter by location/type/price
-Make the site fully responsive (mobile-friendly)
-Secure forms with prepared statements
-Add user registration and login
-Integrate with Google Maps (optional)
+- Add search and filter by location/type/price
+- Make the site fully responsive (mobile-friendly)
+- Secure forms with prepared statements
+- Add user registration and login
+- Integrate with Google Maps (optional)
 
 ## 👨‍💻 Author
 **Omar Khamis**
@@ -64,3 +64,4 @@ GitHub: @omarkhamis088
 
 ## 📄 License
 This project is licensed under the MIT License.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
