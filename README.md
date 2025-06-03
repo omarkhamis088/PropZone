@@ -48,9 +48,13 @@ http://localhost/PropZone
 **Password:** 123
 
 ## 📸 Screenshots
-![View properties Screenshot](screenshot/ViewProperties.png)
+**View properties Page**
+![View properties Page Screenshot](screenshot/ViewProperties.png)
+**Real estate Page**
 ![Real estate Page Screenshot](screenshot/RealEstate.png)
+**Add a property Page**
 ![Add a property Page Screenshot](screenshot/AddProperty.png)
+**About Page**
 ![About Page Screenshot](screenshot/About.png)
 
 ## 🧭 Planned Improvements
