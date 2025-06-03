@@ -1,50 +1,45 @@
-# 🏠 RealEstate-PHP
+# 🏠 PropZone
 
-A simple real estate web application built with PHP to manage and showcase property listings. This project is designed as a foundational platform for learning PHP-based web development, with a focus on CRUD operations and admin panel management.
+A real estate web application built with PHP to manage and showcase property listings. PropZone provides a simple admin panel and a front-facing interface for clients to browse available properties.
 
 ## 📌 Features
 
-- Add, edit, and delete real estate listings.
-- Basic image gallery for each property.
-- Admin panel for managing listings.
-- Front-end interface for users to browse available properties.
+- Add, edit, and delete property listings
+- Upload images for each property
+- Admin dashboard with login
+- User-facing property listing interface
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
-- **Backend**: PHP (Core)
-- **Frontend**: HTML, CSS, Bootstrap
-- **Database**: MySQL (via phpMyAdmin or any compatible server)
-- **Hosting (optional)**: XAMPP / WAMP / Localhost
+- PHP (Core)
+- HTML, CSS, Bootstrap
+- JavaScript
+- MySQL
 
-## 🚀 Installation
+## 🚀 How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/omarkhamis088/RealEstate-PHP.git
-Move the folder to your htdocs (for XAMPP users).
+   git clone https://github.com/omarkhamis088/PropZone.git
+2. Move the folder to your local server directory (e.g., htdocs for XAMPP).
+3. Import the SQL file from the DATABASE FILE folder into phpMyAdmin.
+4. Access the project via:
+http://localhost/PropZone
 
-Import the SQL database (if provided) into phpMyAdmin.
+# 📸 Screenshots
+Add screenshots of the dashboard and public interface here.
 
-Run the project in your browser:
+#🔐 Default Admin Login
 
-arduino
+Username: admin
+Password: 123
 
-http://localhost/RealEstate-PHP
-📸 Screenshots
-Add screenshots here to visually showcase your UI.
+# 🧭 Next Improvements
+Add search and filter for listings
+Make mobile-friendly (responsive design)
+Improve security (prepared statements, input validation)
+Add user registration/login (optional)
 
-✅ To Do
-Add user authentication (login/register)
-
-Implement search and filter options
-
-Improve UI for mobile devices (responsive design)
-
-Secure against SQL Injection and XSS
-
-📄 License
-This project is for educational and personal portfolio use. No license applied yet.
-
-👨‍💻 Author
+# 👨‍💻 Author
 Omar Khamis
 GitHub: @omarkhamis088
