@@ -1,5 +1,10 @@
 # 🏠 PropZone
 
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Built with PHP](https://img.shields.io/badge/Built%20with-PHP-blue)
+![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)
+
 **PropZone** is a lightweight and efficient real estate web application built using PHP and MySQL. It provides an intuitive admin dashboard to manage property listings, and a clean front-end interface for users to browse properties.
 
 ---
@@ -30,10 +35,12 @@
 
    ```bash
    git clone https://github.com/omarkhamis088/PropZone.git
+   ```
+
 2. **Move the project to your web server directory.**
 
-For example, if using XAMPP:
-C:\xampp\htdocs\PropZone
+   For example, if using XAMPP:
+   `C:\xampp\htdocs\PropZone`
 
 3. **Import the database.**
 Open phpMyAdmin
@@ -41,33 +48,50 @@ Create a new database (e.g., propzone)
 Import the SQL file from the DATABASE FILE folder
 
 4. **Run the project in your browser.**
-http://localhost/PropZone
+   `http://localhost/PropZone`
+   
+---
 
 ## 🔐 Default Admin Login
-**Username:** admin
-**Password:** 123
+
+- **Username:** `admin`  
+- **Password:** `123`
+
+---
+
 
 ## 📸 Screenshots
-**View properties Page**
+
+**View Properties Page**  
 ![View properties Page Screenshot](screenshot/ViewProperties.png)
-**Real estate Page**
+
+**Real Estate Page**  
 ![Real estate Page Screenshot](screenshot/RealEstate.png)
-**Add a property Page**
+
+**Add Property Page**  
 ![Add a property Page Screenshot](screenshot/AddProperty.png)
-**About Page**
+
+**About Page**  
 ![About Page Screenshot](screenshot/About.png)
+
+---
 
 ## 🧭 Planned Improvements
 - Add search and filter by location/type/price
-- Make the site fully responsive (mobile-friendly)
+- Make the site fully responsive
 - Secure forms with prepared statements
 - Add user registration and login
 - Integrate with Google Maps (optional)
 
+---
+
 ## 👨‍💻 Author
-**Omar Khamis**
-GitHub: @omarkhamis088
+
+**Omar Khamis**  
+GitHub: [@omarkhamis088](https://github.com/omarkhamis088)
+
+---
 
 ## 📄 License
-This project is licensed under the MIT License.
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
